@@ -7,4 +7,6 @@ Gestão de Projetos / Programas de inovação tecnológica
 
 Link do projeto no github [gppinovacao] (https://github.com/ogpgit/gppinovacao)
 
+[![Build Status](https://travis-ci.org/ogpgit/gppinovacao.svg?branch=master)](https://travis-ci.org/ogpgit/gppinovacao)
+
 Suportada versão Python 3.7

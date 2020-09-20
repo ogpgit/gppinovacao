@@ -20,10 +20,6 @@ def mostrar_conteudo_planilha(planilha):
         for j in range(1, qtdeMaximaColuna + 1):
             lista.append(planilha.cell(row=i, column=j).value)
         print(lista)
-            # print(planilha.cell(row=i, column=j).value, end="\n")
-
-
-
 
 if __name__ == '__main__':
     # abrir_planilha('Contato.xlsx') == 'Sucesso':
@@ -35,7 +31,8 @@ if __name__ == '__main__':
     # mostrar o título da planilha
     print('\nTitulo da planilha')
     print(planilha.title)
+    print(planilha.dimensions)
 
     # mostrar conteudo da planilha
     print('\nMostrar conteudo da planilha')
-    mostrar_conteudo_planilha(planilha)
+    # mostrar_conteudo_planilha(planilha)
