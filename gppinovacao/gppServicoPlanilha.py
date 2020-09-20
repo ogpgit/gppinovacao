@@ -12,7 +12,6 @@ def abrir_planilha(nome_planilha):
 
     return load_workbook(nome_planilha).active
 
-
 def mostrar_conteudo_planilha(planilha):
     qtdeMaximaLinha = planilha.max_row
     qtdeMaximaColuna = planilha.max_column
