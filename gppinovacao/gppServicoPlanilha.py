@@ -1,4 +1,4 @@
-from openpyxl import Workbook, open, load_workbook
+from openpyxl import load_workbook
 
 
 def abrir_planilha(nome_planilha):
@@ -22,9 +22,10 @@ def mostrar_conteudo_planilha(planilha):
         print(lista)
 
 if __name__ == '__main__':
-    # abrir_planilha('Contato.xlsx') == 'Sucesso':
+
     planilha = abrir_planilha('Contato.xlsx')
-    # planilha = abrir_planilha('gppInovacao.xlsx')
+
+   # planilha = abrir_planilha('gppInovacao.xlsx')
 
     # print(type(planilha))
 
