@@ -7,6 +7,3 @@ python:
 
 install:
   - pip install -q -r requirements-dev.txt
-
-script:
-  - pipenv run flake8
