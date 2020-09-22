@@ -10,4 +10,3 @@ def abrir_planilha(nome_planilha):
 if __name__ == '__main__':
     planilha = abrir_planilha('Contato.xlsx')
     print(type(planilha))
-
