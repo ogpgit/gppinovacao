@@ -1,4 +1,4 @@
-from openpyxl import load_workbook
+from openpyxl import Workbook, load_workbook
 
 
 def abrir_planilha(nome_planilha):
@@ -22,6 +22,12 @@ def mostrar_conteudo_planilha(planilha):
         print(lista)
 
 
+def salvar_planilha(planilha):
+    planilha['A2'] = 'Osvaldo Gonzaga'
+    print(planilha.cell(2,1).value)
+    planilha.save('Contato.xlsx')
+
+
 if __name__ == '__main__':
     planilha = abrir_planilha('Contato.xlsx')
 
@@ -36,4 +42,9 @@ if __name__ == '__main__':
 
     # mostrar conteudo da planilha
     print('\nMostrar conteudo da planilha')
-    # mostrar_conteudo_planilha(planilha)
+    mostrar_conteudo_planilha(planilha)
+
+    # Salvar conteuda da planilha
+    print('\nSalvar conteudo da planilha')
+    salvar_planilha(planilha)
+
