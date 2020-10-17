@@ -25,7 +25,7 @@ def mostrar_conteudo_planilha(planilha):
 def salvar_planilha(planilha):
     planilha['A2'] = 'Osvaldo Gonzaga'
     print(planilha.cell(2, 1).value)
-    planilha.save('Contato.xlsx')
+    # planilha.save('Contato.xlsx')
 
 
 if __name__ == '__main__':
@@ -46,4 +46,4 @@ if __name__ == '__main__':
 
     # Salvar conteuda da planilha
     print('\nSalvar conteudo da planilha')
-    salvar_planilha(planilha)
+    # salvar_planilha(planilha)
