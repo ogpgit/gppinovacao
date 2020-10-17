@@ -39,6 +39,7 @@ if __name__ == '__main__':
     print('\nTitulo da planilha')
     print(planilha.title)
     print(planilha.dimensions)
+    print(type(planilha))
 
     # mostrar conteudo da planilha
     print('\nMostrar conteudo da planilha')
