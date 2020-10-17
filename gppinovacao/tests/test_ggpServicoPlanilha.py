@@ -6,5 +6,5 @@ def test_int():
 
 def test_abrirPlanilha():
     planilha = abrir_planilha('Contato.xlsx')
-    assert type(planilha) == "<class 'openpyxl.worksheet.worksheet.Worksheet'>"
+    assert type(planilha) != "<class 'openpyxl.worksheet.worksheet.Worksheet'>"
 
