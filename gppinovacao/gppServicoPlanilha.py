@@ -8,7 +8,10 @@ def path_planilha(nome_planilha):
     :param nome_planilha: str com o nome da planilha
     :return: o caminho completo da planilha
     """
-    return f'G:\\AmbientePython\\PycharmProjects\\gppinovacao\\{nome_planilha}'
+    # barra = '\\'
+    # return f'G:{barra}AmbientePython{barra}PycharmProjects{barra}gppinovacao{barra}{nome_planilha}'
+    return f"G:\\AmbientePython\\PycharmProjects\\gppinovacao\\{nome_planilha}"
+    # return f"G:\AmbientePython\PycharmProjects\gppinovacao\{nome_planilha}"
 
 
 def abrir_planilha(nome_planilha):
@@ -18,7 +21,6 @@ def abrir_planilha(nome_planilha):
        :param nome_planilha: str com o nome da planilha
        :return: um objeto workbook ativado
        """
-    # nome_planilha = f'G:\\AmbientePython\\PycharmProjects\\gppinovacao\\{nome_planilha}'
     return load_workbook(path_planilha(nome_planilha)).active
 
 
