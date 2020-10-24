@@ -10,8 +10,8 @@ def path_planilha(nome_planilha):
     """
     # barra = '\\'
     # return f'G:{barra}AmbientePython{barra}PycharmProjects{barra}gppinovacao{barra}{nome_planilha}'
-    # return f'G:\\AmbientePython\\PycharmProjects\\gppinovacao\\{nome_planilha}'
-    return f'G:\AmbientePython\PycharmProjects\gppinovacao\{nome_planilha}'
+    return f"G:\\AmbientePython\\PycharmProjects\\gppinovacao\\{nome_planilha}"
+    # return f"G:\AmbientePython\PycharmProjects\gppinovacao\{nome_planilha}"
 
 
 def abrir_planilha(nome_planilha):
