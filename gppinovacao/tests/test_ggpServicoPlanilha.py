@@ -1,4 +1,4 @@
-from gppinovacao.gppServicoPlanilha import abrir_planilha
+# from gppinovacao.gppServicoPlanilha import abrir_planilha
 
 
 def test_int():
