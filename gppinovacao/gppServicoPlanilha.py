@@ -20,6 +20,7 @@ def abrir_planilha(nome_planilha):
        :param nome_planilha: str com o nome da planilha
        :return: um objeto workbook ativado
        """
+    print(path_planilha(nome_planilha))
     return load_workbook(path_planilha(nome_planilha)).active
 
 
