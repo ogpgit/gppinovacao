@@ -7,4 +7,4 @@ def test_int():
 
 def test_abrirPlanilha():
     planilha = abrir_planilha('Contato.xlsx')
-    assert planilha.title == 'Plan2'
+    assert planilha.title == 'Plsan2'

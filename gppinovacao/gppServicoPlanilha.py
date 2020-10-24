@@ -8,7 +8,9 @@ def path_planilha(nome_planilha):
     :param nome_planilha: str com o nome da planilha
     :return: o caminho completo da planilha
     """
-    return f'G:\\AmbientePython\\PycharmProjects\\gppinovacao\\{nome_planilha}'
+    barra = '\\'
+    return f'G:{barra}AmbientePython{barra}PycharmProjects{barra}gppinovacao{barra}{nome_planilha}'
+    # return f'G:\\AmbientePython\\PycharmProjects\\gppinovacao\\{nome_planilha}'
 
 
 def abrir_planilha(nome_planilha):
@@ -38,7 +40,6 @@ def salvar_planilha(wb, path):
 if __name__ == '__main__':
 
     planilha = abrir_planilha('Contato.xlsx')
-    print(planilha.title)
 
     # Salvar conteudo da planilha
     print('\nSalvar conteudo da planilha')
