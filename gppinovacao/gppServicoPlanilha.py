@@ -18,7 +18,7 @@ def abrir_planilha(nome_planilha):
        :param nome_planilha: str com o nome da planilha
        :return: um objeto workbook ativado
        """
-    return load_workbook(path_planilha(nome_planilha), False).active
+    return load_workbook(path_planilha(nome_planilha)).active
 
 
 def mostrar_conteudo_planilha(planilha):
@@ -38,6 +38,7 @@ def salvar_planilha(wb, path):
 if __name__ == '__main__':
 
     planilha = abrir_planilha('Contato.xlsx')
+    print(planilha.title)
 
     # Salvar conteudo da planilha
     print('\nSalvar conteudo da planilha')
