@@ -18,7 +18,6 @@ def abrir_planilha(nome_planilha):
        :param nome_planilha: str com o nome da planilha
        :return: um objeto workbook ativado
        """
-    # nome_planilha = f'G:\\AmbientePython\\PycharmProjects\\gppinovacao\\{nome_planilha}'
     return load_workbook(path_planilha(nome_planilha)).active
 
 
