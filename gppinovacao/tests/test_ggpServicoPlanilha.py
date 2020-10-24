@@ -2,7 +2,7 @@ from gppinovacao.gppServicoPlanilha import abrir_planilha
 
 
 def test_int():
-    assert 1 == 0
+    assert 1 == 1
 
 
 def test_abrirPlanilha():
