@@ -5,6 +5,6 @@ openpyxl==3.0.5
 setuptools==51.0.0
 requests==2.25.0
 chardet==3.0.4
-certifi==2020.11.8
+certifi==2020.12.5
 urllib3==1.26.2
 idna==2.10
