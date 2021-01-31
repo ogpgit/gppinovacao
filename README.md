@@ -11,4 +11,4 @@ Link para o projeto no [Github](https://github.com/ogpgit/gppinovacao)
 [![Python 3](https://pyup.io/repos/github/ogpgit/gppinovacao/python-3-shield.svg)](https://pyup.io/repos/github/ogpgit/gppinovacao/)
 [![Build Status](https://travis-ci.org/ogpgit/gppinovacao.svg?branch=master)](https://travis-ci.org/ogpgit/gppinovacao)
 
-Instalação do django
+Setup de Projeto django e Arquivo Manage
