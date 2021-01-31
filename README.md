@@ -12,4 +12,4 @@ Link para o projeto no [Github](https://github.com/ogpgit/gppinovacao)
 [![Build Status](https://travis-ci.org/ogpgit/gppinovacao.svg?branch=master)](https://travis-ci.org/ogpgit/gppinovacao)
 
 Setup de Projeto django e Arquivo Manage
-Refzer pull request
+Refzer pull request para acompanhmento
