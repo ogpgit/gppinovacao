@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 requests = "*"
 openpyxl = "*"
+django = "*"
 
 [dev-packages]
 pytest = "*"
