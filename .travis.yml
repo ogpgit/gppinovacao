@@ -5,9 +5,15 @@ sudo: true
 python:
   - 3.7
 
+env:
+  global:
+    - PIPENV_VENV_IN_PROJECT=1
+    - PIPENV_IGNORE_VIRTUALENVS=1
+
 install:
-  - pip install -q -r requirements-dev.txt
+  - pip install pipenv
+  - pipenv sync -d
 
 script:
-  - flake8
-  - pytest gppinovacao
+  - pipenv run flake8 .
+  - pipenv run pytest

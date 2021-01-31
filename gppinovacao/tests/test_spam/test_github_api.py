@@ -2,12 +2,12 @@ from unittest.mock import Mock
 
 import pytest
 
-from gppinovacao import github_api
+# from gppinovacao import github_api
 
 
-def test_buscar_avatar(avatar_url):
-    url = github_api.buscar_avatar('ogpgit')
-    assert avatar_url == url
+# def test_buscar_avatar(avatar_url):
+#    url = github_api.buscar_avatar('ogpgit')
+#    assert avatar_url == url
 
 
 @pytest.fixture
@@ -24,6 +24,6 @@ def avatar_url(mocker):
     return url
 
 
-def test_buscar_avatar_integracao():
-    url = github_api.buscar_avatar('ogpgit')
-    assert 'https://avatars1.githubusercontent.com/u/67315703?v=4' == url
+# def test_buscar_avatar_integracao():
+#    url = github_api.buscar_avatar('ogpgit')
+#    assert 'https://avatars1.githubusercontent.com/u/67315703?v=4' == url
