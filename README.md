@@ -11,5 +11,7 @@ Link para o projeto no [Github](https://github.com/ogpgit/gppinovacao)
 [![Python 3](https://pyup.io/repos/github/ogpgit/gppinovacao/python-3-shield.svg)](https://pyup.io/repos/github/ogpgit/gppinovacao/)
 [![Build Status](https://travis-ci.org/ogpgit/gppinovacao.svg?branch=master)](https://travis-ci.org/ogpgit/gppinovacao)
 
-Setup de Projeto django e Arquivo Manage
-Refzer pull request para acompanhmento
+Publicar a aplicação no Heroku
+
+Já instalei o - gunicorn - 4:15min
+pipenv install gunicorn

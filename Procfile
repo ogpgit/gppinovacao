@@ -1,0 +1,1 @@
+web: gunicorn gppdjango.wsgi --log-file -
