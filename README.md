@@ -13,4 +13,4 @@ Aplicação disponível no https://ogpgppdjango.herokuapp.com/
 [![Python 3](https://pyup.io/repos/github/ogpgit/gppinovacao/python-3-shield.svg)](https://pyup.io/repos/github/ogpgit/gppinovacao/)
 [![Build Status](https://travis-ci.org/ogpgit/gppinovacao.svg?branch=master)](https://travis-ci.org/ogpgit/gppinovacao)
 
-Configurar o Pycharm para rodar o servidor django e criadas app base
+Configurar Pytest-django para rodar testes automáticos no Django
