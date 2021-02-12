@@ -7,11 +7,12 @@ Gestão de Projetos / Programas de inovação tecnológica
 
 Link para o projeto no [Github](https://github.com/ogpgit/gppinovacao)
 
+Heroku: [heroku](https://dashboard.heroku.com/apps)
+
 Aplicação disponível no https://ogpgppdjango.herokuapp.com/
 
 [![Updates](https://pyup.io/repos/github/ogpgit/gppinovacao/shield.svg)](https://pyup.io/repos/github/ogpgit/gppinovacao/)
 [![Python 3](https://pyup.io/repos/github/ogpgit/gppinovacao/python-3-shield.svg)](https://pyup.io/repos/github/ogpgit/gppinovacao/)
 [![Build Status](https://travis-ci.org/ogpgit/gppinovacao.svg?branch=master)](https://travis-ci.org/ogpgit/gppinovacao)
 
-Cobertura de Testes
-Configurar a aplicação para adicionar relatório de cobertura de testes ao projeto
+Instalar a Lib Python Decouple para desacoplar as configurações de instância da aplicação.
