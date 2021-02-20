@@ -15,4 +15,5 @@ Aplicação disponível no https://ogpgppdjango.herokuapp.com/
 [![Python 3](https://pyup.io/repos/github/ogpgit/gppinovacao/python-3-shield.svg)](https://pyup.io/repos/github/ogpgit/gppinovacao/)
 [![Build Status](https://travis-ci.org/ogpgit/gppinovacao.svg?branch=master)](https://travis-ci.org/ogpgit/gppinovacao)
 
-Instalar a Lib Python Decouple para desacoplar as configurações de instância da aplicação.
+
+Configurar a Secret Key para ser utilizada na aplicação
