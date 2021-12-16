@@ -243,11 +243,10 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:ace61d5fc652dc280e7b6b4ff732a9c2d40db2c0f92bc6cb74e07b73d53a1771",
-                "sha256:fa5daa4477a7414ae34e95942e4dd07f62adf589143c875c133c1e53c4eff38d"
+                "sha256:65a9576a5b2d58ca44d133c42a241905cc45e34d2c06fd5ba2bafa221e5d7b5e",
+                "sha256:766abffff765960fcc18003801f7044eb6755ffae4521c8e8ce8e83b9c9b0668"
             ],
-            "markers": "python_version < '3.8'",
-            "version": "==3.4.0"
+            "version": "==4.8.3"
         },
         "iniconfig": {
             "hashes": [
