@@ -75,12 +75,8 @@
             "version": "==1.4.1"
         },
         "openpyxl": {
-            "hashes": [
-                "sha256:1a4b3869c2500b5c713e8e28341cdada49ecfcff1b10cd9006945f5bcefc090d",
-                "sha256:b229112b46e158b910a5d1b270b212c42773d39cab24e8db527f775b82afc041"
-            ],
-            "index": "pypi",
-            "version": "==3.0.6"
+            "hashes": [],
+            "version": "==3.1.1"
         },
         "python-decouple": {
             "hashes": [
