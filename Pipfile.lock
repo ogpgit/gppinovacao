@@ -47,10 +47,8 @@
             "version": "==3.1.7"
         },
         "et-xmlfile": {
-            "hashes": [
-                "sha256:614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437691683335b"
-            ],
-            "version": "==1.0.1"
+            "hashes": [],
+            "version": "==2.0.0"
         },
         "gunicorn": {
             "hashes": [
